@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://architsrocks:Qr5H1AdSCpwT9zN1@zypher-mongo-cluster-1.ww9fght.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://architsrocks:<password>@zypher-mongo-cluster-1.ww9fght.mongodb.net/?retryWrites=true&w=majority";
 const bodyParser = require('body-parser')
 const booksRouter = require('./routes/book')
 
